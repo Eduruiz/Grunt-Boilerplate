@@ -103,9 +103,11 @@ textarea {
 
 @import 'normalize';
 
-body{
-    background-color: grey;
+* {
+    transition: all .3s;
 }
+
+body {  }
 
 
 

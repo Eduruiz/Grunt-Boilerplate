@@ -86,6 +86,7 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-autoprefixer');
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-browser-sync');
+  grunt.loadNpmTasks('grunt-newer');
 
   // Default task(s).
   grunt.registerTask('default', ['uglify', 'sass', 'imagemin', 'autoprefixer']);
